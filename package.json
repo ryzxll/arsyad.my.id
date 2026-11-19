@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-arsyad",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portofolio Arsyad Kariman",
+  "scripts": {
+    "build:lanyard": "esbuild src/lanyard.js --bundle --minify --format=iife --target=es2019 --outfile=js/lanyard.min.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "three": "^0.170.0"
+  }
+}
